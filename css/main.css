@@ -63,3 +63,49 @@ li.active {
 .back button {
   margin-bottom: 0px !important;
 }
+
+/* Start with default styles for phone-sized devices */
+    p,li{
+        font-size: 0.9em;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    button{
+        width: 24px;
+        height: 12px;
+    }
+    button.nav{
+        background-image: url('img/phone/nav.png');
+    }
+
+@media only screen and (min-device-width : 768px) { /* 7" tablets */
+    p, li{
+        font-size: 1.3em !important;
+    }
+    h1{
+        font-size: 1.6em !important;
+    }
+    button{
+          width: 32px;
+          height: 16px;
+    }
+    button.nav{
+        background-image: url('img/tablet7/nav.png');
+    }
+}
+@media only screen and (min-device-width : 1024px) { /* 10" tablets and iPad */
+    p, li{
+        font-size: 1.5em !important;
+    }
+    h1{
+        font-size: 1.8em !important;
+    }
+    button{
+        width: 48px;
+        height: 24px;
+    }
+    button.nav{
+        background-image: url('img/tablet10/nav.png');
+    }
+}
