@@ -1,0 +1,9 @@
+.jFeedList{margin:10px;}
+.jFeedList img{max-height:11em;max-width:100%;margin:10px 0 0 10px;}
+.jFeedList .media{padding:5px;border:1px solid lightblue;background-color:ghostwhite;margin-bottom:10px;max-width:100% !important;}
+.jFeedList a.left{margin-right:10px;}
+.jFeedList a.right{margin-left:10px;}
+
+.jFeedItem{margin:10px;}
+.jFeedItem img{max-width:100%;padding-bottom:10px;height:auto !important;width:auto !important;}
+.jFeedItem .media{padding:5px;border:1px solid lightblue;background-color:ghostwhite;max-width:100% !important;}
